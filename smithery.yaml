@@ -1,0 +1,17 @@
+# Smithery registry configuration for the hosted KickoffAPI MCP server.
+# Docs: https://smithery.ai/docs
+startCommand:
+  type: remote
+  connectionType: sse
+  url: https://api.kickoffapi.com/mcp/sse
+  configSchema:
+    type: object
+    properties:
+      apiKey:
+        type: string
+        title: KickoffAPI API Key
+        description: Free tier gives 100 requests/day. Get one at https://kickoffapi.com
+    required:
+      - apiKey
+  exampleConfig:
+    apiKey: YOUR_API_KEY
