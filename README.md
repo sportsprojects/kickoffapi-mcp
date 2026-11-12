@@ -58,7 +58,7 @@ asyncio.run(main())
 
 ## Registry metadata
 
-[`server.json`](server.json) follows the official MCP Registry schema (`com.kickoffapi/mcp`). Domain ownership is proven via the well-known record at [kickoffapi.com/.well-known/mcp-registry-auth](https://kickoffapi.com/.well-known/mcp-registry-auth).
+[`server.json`](server.json) follows the official MCP Registry schema (`io.github.sportsprojects/kickoffapi-mcp`). Domain ownership is proven via the well-known record at [kickoffapi.com/.well-known/mcp-registry-auth](https://kickoffapi.com/.well-known/mcp-registry-auth).
 
 ## Links
 

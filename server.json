@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "com.kickoffapi/mcp",
+  "name": "io.github.sportsprojects/kickoffapi-mcp",
   "title": "KickoffAPI Football Data",
   "description": "Live football scores, fixtures, standings, odds and xG via the KickoffAPI football data API.",
   "version": "1.0.0",
